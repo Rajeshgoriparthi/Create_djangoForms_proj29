@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form{
+            border: 2px solid rgb(249, 89, 231);
+            background-color: rgb(249, 89, 231);
+            width: fit-content;
+            padding: 20px;
+            border-radius: 30px;
+        }
+    </style>
 </head>
 <body>
     <center>
-        <h1>This is Webpage Form</h1>
+        <h1>This is School Form</h1>
         <form method="POST">
             {% csrf_token %}
-            {{WF.as_p}}
+            {{TF.as_p}}
         <input type="submit" value="Submit">
         </form>
     </center>

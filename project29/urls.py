@@ -18,6 +18,6 @@ from django.urls import path
 from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Topic_Form/',Topic_Form,name='Topic_Form'),
-    path('Webpage_Form/',Webpage_Form,name='Webpage_Form'),
+    path('School_Form/',School_Form,name='School_Form'),
+    path('Student_Form/',Student_Form,name='Student_Form'),
 ]
